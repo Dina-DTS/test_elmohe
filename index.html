@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  </head>
+  <body>
+
+    <!-- Home Section with Navbar -->
+    <section id="home">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="welcome_head">
+        <h1>Welcome to my website</h1>
+        <p>Discover my projects and skills as a Full Stack Developer</p>
+
+      </div>
+    </section>
+    
+    <!-- End section home -->
+
+    <!-- start section about  -->
+    <section id="about">
+      <div class="info">
+        <div class="info_text">
+          <header>
+            <h3 class="header_about">About Me</h3>
+            <span></span>
+          </header>
+          <p>
+            I am a 24-year-old Full Stack Developer, graduated from the Faculty
+            of Computers and Information with a Very Good grade. I am passionate
+            about building web applications and continuously learning new
+            technologies to enhance my skills.
+          </p>
+          <ul class="about-list">
+        <li> <i class="fa-solid fa-code-compare fa-fade"></i>
+          Strong knowledge in both Frontend & Backend development.</li>
+        <li> <i class="fa-solid fa-chalkboard-user fa-sm fa-fade"></i> Experienced in building responsive and dynamic websites.</li>
+        <li><i class="fa-solid fa-display fa-fade"></i></i>
+            Passionate about clean code and system architecture.</li>
+        <li>  <i class="fa-solid fa-user fa-fade"></i></i> Good communication skills and teamwork experience.</li>
+      </ul>
+        </div>
+        <div class="image_info">
+          <img src="images/pro2.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- end section about -->
+
+    <!-- start Hobbies Section -->
+    <section id="hobbies">
+      <h2>MY Hobbies</h2>
+      <div class="parent">
+        <div class="hobby">
+          <img src="images/reading.png" alt="Reading" />
+          <p>Reading</p>
+        </div>
+        <div class="hobby">
+          <img src="images/discovering.jpg" alt="Discovering" />
+          <p>Discovering</p>
+        </div>
+        <div class="hobby">
+          <img src="images/developer-coding-in-php.jpg" alt="Coding" />
+          <p>Coding</p>
+        </div>
+      </div>
+    </section>
+    <!-- end section hobbies -->
+
+
+    <!-- start section contact -->
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          rows="5"
+          placeholder="Write your message"
+          required
+        ></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+     <!-- end section contact -->
+  </body>
+</html>
